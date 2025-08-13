@@ -21,6 +21,24 @@ export default function Home() {
     }
   }
 
+  function handleAmal() {
+    switch (amal) {
+      case "*":
+        setResult(adad1! * adad2!);
+        setAdad1(null);
+        setAdad2(null);
+        break;
+      case "/":
+        setResult(adad1! / adad2!);
+        setAdad1(null);
+        setAdad2(null);
+        break;
+
+      default:
+        break;
+    }
+  }
+
   return (
     <div className="shadow-xl shadow-blue-800 w-150 h-150 ml-180 mt-50 ">
       <div>
@@ -39,9 +57,7 @@ export default function Home() {
         <CustomButton1
           title={"="}
           onClick={() => {
-            setResult(adad1! * adad2!);
-            setAdad1(null);
-            setAdad2(null);
+            handleAmal();
           }}
         />
         <CustomButton1
