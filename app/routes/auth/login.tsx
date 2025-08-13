@@ -1,5 +1,5 @@
-import CustomInput from "~/component/componentInput";
-import { CustomButton3 } from "~/component/componentButton";
+import CustomInput from "~/components/componentInput";
+import { CustomButton3 } from "~/components/componentButton";
 import { Link, useNavigate } from "react-router";
 
 export default function login() {

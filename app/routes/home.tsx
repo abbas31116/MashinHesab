@@ -4,8 +4,8 @@
 import { Divide, Loader } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link, useLocation, useNavigate, useNavigation } from "react-router";
-import { CustomButton1 } from "~/component/componentButton";
-import ListComponent from "~/component/list";
+import { CustomButton1 } from "~/components/componentButton";
+import ListComponent from "~/components/list";
 
 export default function Home() {
   const [data, setdata] = useState<(string | number)[]>([]);

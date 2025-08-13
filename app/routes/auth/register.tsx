@@ -1,6 +1,6 @@
 import { Link } from "react-router";
-import { CustomButton3 } from "~/component/componentButton";
-import CustomInput from "~/component/componentInput";
+import { CustomButton3 } from "~/components/componentButton";
+import CustomInput from "~/components/componentInput";
 
 export default function login() {
   return (
