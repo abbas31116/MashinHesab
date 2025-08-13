@@ -15,7 +15,7 @@ function CustomButton1({ variant = "primary", title, onClick, className, }: ICus
 
     //   {title}
     // </button>
-    <button onClick={onClick} className={`${variant == "primary" ? "bg-black text-white":"bg-black text-orange-500"} p-2 cursor-pointer`}>{title}</button>
+    <button onClick={onClick} className={`${variant == "primary" ? "bg-black text-white":"bg-black text-orange-500"} text-xl p-8 cursor-pointer`}>{title}</button>
   );
 }
 
