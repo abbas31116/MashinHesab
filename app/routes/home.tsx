@@ -24,7 +24,7 @@ export default function Home() {
   function handleAmal() {
     switch (amal) {
       case "*":
-        setResult(adad1! * adad2!);
+        setResult(adad1 ?? 1 * adad2!);
         setAdad1(null);
         setAdad2(null);
         break;
